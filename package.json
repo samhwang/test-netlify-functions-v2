@@ -16,7 +16,7 @@
     "lint:fix:unsafe": "biome check --apply-unsafe ./netlify",
     "format": "biome format --write ./netlify",
     "typecheck": "tsc",
-    "dev": "netlify functions:serve"
+    "dev": "netlify dev"
   },
   "dependencies": {},
   "devDependencies": {
